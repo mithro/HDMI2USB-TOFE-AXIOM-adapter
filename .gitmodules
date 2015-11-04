@@ -1,0 +1,4 @@
+[submodule "external/HDMI2USB-TOFE-kicad-template"]
+	path = external/HDMI2USB-TOFE-kicad-template
+	url = https://github.com/timvideos/HDMI2USB-TOFE-kicad-template.git
+	branch = for-kicad-2013-07-07-BZR-4022
