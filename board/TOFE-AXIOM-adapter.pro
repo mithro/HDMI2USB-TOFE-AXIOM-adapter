@@ -66,3 +66,4 @@ LibName29=valves
 LibName30=TOFE-AXIOM-adapter-cache
 LibName31=TOFE
 LibName32=axiom
+LibName33=EEPROM
