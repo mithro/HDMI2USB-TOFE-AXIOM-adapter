@@ -1,6 +1,6 @@
-update=Wed 04 Nov 2015 17:49:05 AEDT
+update=Fri 18 Mar 2016 05:12:41 PM AEDT
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -33,11 +33,6 @@ LibName1=TOFE
 [eeschema]
 version=1
 LibDir=../libraries
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -71,3 +66,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=TOFE-AXIOM-adapter-cache
 LibName32=TOFE
+LibName33=axiom
