@@ -141,7 +141,7 @@ SMCLK
 Text Label 3300 3350 0    60   ~ 12
 S_IO5
 Text Label 3300 3550 0    60   ~ 12
-N_IO4
+N_IO5
 Text Label 6210 7550 2    60   ~ 12
 S_SDA
 Text Label 6210 7150 2    60   ~ 12
@@ -757,4 +757,206 @@ F 3 "" H 6000 9350 50  0000 C CNN
 	1    6000 9350
 	1    0    0    -1  
 $EndComp
+$Comp
+L AXIOM-PCIE NORTH?
+U 1 1 56EBD93B
+P 10340 8210
+F 0 "NORTH?" H 10240 8660 60  0000 C CNN
+F 1 "AXIOM-PCIE" H 9490 8660 60  0000 C CNN
+F 2 "w_conn_pc:pci-x_conn-x1" H 8240 8310 60  0001 C CNN
+F 3 "" H 8240 8310 60  0000 C CNN
+	1    10340 8210
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	11700 11720 11700 4820
+Wire Wire Line
+	9040 5510 8490 5510
+Wire Wire Line
+	9040 5610 8490 5610
+Wire Wire Line
+	9040 5710 8490 5710
+Wire Wire Line
+	9040 5810 8490 5810
+Wire Wire Line
+	9040 5910 8490 5910
+Wire Wire Line
+	9040 6010 8490 6010
+Wire Wire Line
+	9040 6110 8490 6110
+Wire Wire Line
+	9040 6210 8490 6210
+Wire Wire Line
+	9040 6310 8490 6310
+Wire Wire Line
+	9040 6410 8490 6410
+Wire Wire Line
+	9040 6510 8490 6510
+Wire Wire Line
+	9040 6910 8490 6910
+Wire Wire Line
+	9040 7010 8490 7010
+Wire Wire Line
+	9040 7210 8490 7210
+Wire Wire Line
+	9040 7310 8490 7310
+Text Label 8490 5510 0    60   ~ 0
+N_SDA
+Text Label 8490 5610 0    60   ~ 0
+N_SCL
+Text Label 8490 5810 0    60   ~ 0
+N_IO0
+Text Label 8490 5910 0    60   ~ 0
+N_IO1
+Text Label 8490 6010 0    60   ~ 0
+N_IO2
+Text Label 8490 6110 0    60   ~ 0
+N_IO3
+Text Label 8490 6210 0    60   ~ 0
+N_IO4
+Text Label 8490 6310 0    60   ~ 0
+N_IO5
+Text Label 8490 6410 0    60   ~ 0
+N_IO6
+Text Label 8490 6510 0    60   ~ 0
+N_IO7
+Text Label 8490 7210 0    60   ~ 0
+N_LVDS_5_P
+Text Label 8490 7310 0    60   ~ 0
+N_LVDS_5_N
+Wire Wire Line
+	10740 6910 11340 6910
+Wire Wire Line
+	10740 7010 11340 7010
+Wire Wire Line
+	10740 7210 11340 7210
+Wire Wire Line
+	10740 7310 11340 7310
+Text Label 10860 7210 0    60   ~ 0
+N_LVDS_4_P
+Text Label 10860 7310 0    60   ~ 0
+N_LVDS_4_N
+Text Label 10860 7010 0    60   ~ 0
+N_LVDS_3_N
+Text Label 10860 6910 0    60   ~ 0
+N_LVDS_3_P
+Wire Wire Line
+	10740 5910 11340 5910
+Wire Wire Line
+	10740 6010 11340 6010
+Wire Wire Line
+	10740 6210 11340 6210
+Wire Wire Line
+	10740 6310 11340 6310
+Text Label 10860 6210 0    60   ~ 0
+N_LVDS_2_P
+Text Label 10860 6310 0    60   ~ 0
+N_LVDS_2_N
+Text Label 10860 6010 0    60   ~ 0
+N_LVDS_1_N
+Text Label 10860 5910 0    60   ~ 0
+N_LVDS_1_P
+Wire Wire Line
+	10740 5610 11340 5610
+Wire Wire Line
+	10740 5710 11340 5710
+Text Label 10860 5710 0    60   ~ 0
+N_LVDS_0_N
+Text Label 10860 5610 0    60   ~ 0
+N_LVDS_0_P
+Wire Wire Line
+	10740 5510 10780 5510
+Wire Wire Line
+	10780 5510 10780 7840
+Wire Wire Line
+	10740 5810 10780 5810
+Connection ~ 10780 5810
+Wire Wire Line
+	10740 6110 10780 6110
+Connection ~ 10780 6110
+Wire Wire Line
+	10740 6410 10780 6410
+Connection ~ 10780 6410
+Wire Wire Line
+	10780 7410 10740 7410
+Wire Wire Line
+	10740 7110 10780 7110
+Connection ~ 10780 7110
+Wire Wire Line
+	10740 6810 10780 6810
+Connection ~ 10780 6810
+Wire Wire Line
+	10780 7840 9010 7840
+Connection ~ 10780 7410
+Wire Wire Line
+	9040 7410 9010 7410
+Wire Wire Line
+	9010 7840 9010 7110
+Wire Wire Line
+	9010 7110 9040 7110
+Connection ~ 9010 7410
+$Comp
+L GND #PWR?
+U 1 1 56EBD984
+P 9940 7900
+F 0 "#PWR?" H 9940 7650 50  0001 C CNN
+F 1 "GND" H 9940 7750 50  0000 C CNN
+F 2 "" H 9940 7900 50  0000 C CNN
+F 3 "" H 9940 7900 50  0000 C CNN
+	1    9940 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9940 7900 9940 7840
+Connection ~ 9940 7840
+Wire Wire Line
+	8490 6810 9040 6810
+Text Label 8490 6810 0    60   ~ 0
+VCC_5V0
+Text Label 8490 5710 0    60   ~ 0
+VCC_3V3
+Wire Wire Line
+	10740 6510 10980 6510
+$Comp
+L R RN?
+U 1 1 56EBD990
+P 11180 6400
+F 0 "RN?" V 11260 6400 50  0000 C CNN
+F 1 "R" V 11180 6400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 11110 6400 50  0001 C CNN
+F 3 "" H 11180 6400 50  0000 C CNN
+	1    11180 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L C CN?
+U 1 1 56EBD996
+P 11190 6620
+F 0 "CN?" H 11215 6720 50  0000 L CNN
+F 1 "C" H 11215 6520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 11228 6470 50  0001 C CNN
+F 3 "" H 11190 6620 50  0000 C CNN
+	1    11190 6620
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10980 6620 11040 6620
+Wire Wire Line
+	10980 6400 10980 6620
+Wire Wire Line
+	10980 6400 11030 6400
+Connection ~ 10980 6510
+$Comp
+L GND #PWR?
+U 1 1 56EBD9A0
+P 11440 6620
+F 0 "#PWR?" H 11440 6370 50  0001 C CNN
+F 1 "GND" H 11440 6470 50  0000 C CNN
+F 2 "" H 11440 6620 50  0000 C CNN
+F 3 "" H 11440 6620 50  0000 C CNN
+	1    11440 6620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11440 6620 11340 6620
 $EndSCHEMATC
