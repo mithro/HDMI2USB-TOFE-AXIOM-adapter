@@ -1,4 +1,4 @@
-update=Fri 18 Mar 2016 05:12:41 PM AEDT
+update=Fri 18 Mar 2016 08:01:14 PM AEDT
 version=1
 last_client=kicad
 [general]
@@ -67,3 +67,13 @@ LibName30=TOFE-AXIOM-adapter-cache
 LibName31=TOFE
 LibName32=axiom
 LibName33=EEPROM
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
