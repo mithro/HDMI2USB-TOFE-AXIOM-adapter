@@ -59,23 +59,23 @@ N_IO0
 Text Label 6210 4050 2    60   ~ 12
 S_IO0
 Text Label 6210 4250 2    60   ~ 12
-S_LVDS_A0
+S_LVDS_0P
 Text Label 6210 4350 2    60   ~ 12
-S_LVDS_B0
+S_LVDS_0N
 Text Label 6210 4850 2    60   ~ 12
-S_LVDS_A1
+S_LVDS_1P
 Text Label 6210 4950 2    60   ~ 12
-S_LVDS_B1
+S_LVDS_1N
 Text Label 6210 5250 2    60   ~ 12
-S_LVDS_A2
+S_LVDS_2P
 Text Label 6210 5350 2    60   ~ 12
-S_LVDS_B2
+S_LVDS_2N
 Text Label 6210 5650 2    60   ~ 12
-S_LVDS_A3
+S_LVDS_3P
 Text Label 6210 5750 2    60   ~ 12
-S_LVDS_B3
+S_LVDS_3N
 Text Label 6210 6350 2    60   ~ 12
-S_LVDS_A4
+S_LVDS_4P
 Text Label 4500 2200 0    60   ~ 12
 VCC3V3
 Text Label 5450 2200 2    60   ~ 12
@@ -83,39 +83,39 @@ VCC12V
 Text Notes 4450 1950 0    60   ~ 12
 TOFE 8x PCB
 Text Label 3300 4050 0    60   ~ 12
-N_LVDS_A0
+N_LVDS_0P
 Text Label 3300 4150 0    60   ~ 12
-N_LVDS_B0
+N_LVDS_0N
 Text Label 3300 4650 0    60   ~ 12
-N_LVDS_A1
+N_LVDS_1P
 Text Label 3300 4750 0    60   ~ 12
-N_LVDS_B1
+N_LVDS_1N
 Text Label 6210 4650 2    60   ~ 12
 S_IO4
 Text Label 3300 5150 0    60   ~ 12
-N_LVDS_B2
+N_LVDS_2N
 Text Label 3300 5050 0    60   ~ 12
-N_LVDS_A2
+N_LVDS_2P
 Text Label 3300 5550 0    60   ~ 12
-N_LVDS_B3
+N_LVDS_3N
 Text Label 3300 5450 0    60   ~ 12
-N_LVDS_A3
+N_LVDS_3P
 Text Label 3300 5750 0    60   ~ 12
 N_IO3
 Text Label 6210 5950 2    60   ~ 12
 S_IO3
 Text Label 3300 6250 0    60   ~ 12
-N_LVDS_B4
+N_LVDS_4N
 Text Label 3300 6150 0    60   ~ 12
-N_LVDS_A4
+N_LVDS_4P
 Text Label 3300 6650 0    60   ~ 12
-N_LVDS_B5
+N_LVDS_5N
 Text Label 3300 6950 0    60   ~ 12
 N_IO2
 Text Label 6210 6750 2    60   ~ 12
-S_LVDS_A5
+S_LVDS_5P
 Text Label 6210 6850 2    60   ~ 12
-S_LVDS_B5
+S_LVDS_5N
 Text Label 6210 7250 2    60   ~ 12
 S_IO1
 Text Label 3300 7350 0    60   ~ 12
@@ -123,11 +123,11 @@ N_SDA
 Text Label 3300 3850 0    60   ~ 12
 N_IO4
 Text Label 6210 6450 2    60   ~ 12
-S_LVDS_B4
+S_LVDS_4N
 Text Label 6210 3550 2    60   ~ 12
 RESET
 Text Label 3300 6550 0    60   ~ 12
-N_LVDS_A5
+N_LVDS_5P
 Text Label 6210 7650 2    60   ~ 12
 S_SCL
 Text Label 3300 7050 0    60   ~ 12
@@ -503,9 +503,9 @@ N_IO6
 Text Label 8490 3390 0    60   ~ 0
 N_IO7
 Text Label 8490 4090 0    60   ~ 0
-N_LVDS_A5
+N_LVDS_5P
 Text Label 8490 4190 0    60   ~ 0
-N_LVDS_B5
+N_LVDS_5N
 Wire Wire Line
 	10740 3790 11340 3790
 Wire Wire Line
@@ -515,13 +515,13 @@ Wire Wire Line
 Wire Wire Line
 	10740 4190 11340 4190
 Text Label 10860 4090 0    60   ~ 0
-N_LVDS_A4
+N_LVDS_4P
 Text Label 10860 4190 0    60   ~ 0
-N_LVDS_B4
+N_LVDS_4N
 Text Label 10860 3890 0    60   ~ 0
-N_LVDS_B3
+N_LVDS_3N
 Text Label 10860 3790 0    60   ~ 0
-N_LVDS_A3
+N_LVDS_3P
 Wire Wire Line
 	10740 2790 11340 2790
 Wire Wire Line
@@ -531,21 +531,21 @@ Wire Wire Line
 Wire Wire Line
 	10740 3190 11340 3190
 Text Label 10860 3090 0    60   ~ 0
-N_LVDS_A2
+N_LVDS_2P
 Text Label 10860 3190 0    60   ~ 0
-N_LVDS_B2
+N_LVDS_2N
 Text Label 10860 2890 0    60   ~ 0
-N_LVDS_B1
+N_LVDS_1N
 Text Label 10860 2790 0    60   ~ 0
-N_LVDS_A1
+N_LVDS_1P
 Wire Wire Line
 	10740 2490 11340 2490
 Wire Wire Line
 	10740 2590 11340 2590
 Text Label 10860 2590 0    60   ~ 0
-N_LVDS_B0
+N_LVDS_0N
 Text Label 10860 2490 0    60   ~ 0
-N_LVDS_A0
+N_LVDS_0P
 Wire Wire Line
 	10740 2390 10780 2390
 Wire Wire Line
@@ -658,7 +658,7 @@ U 1 1 56EBC2B6
 P 5150 9500
 F 0 "U1" H 5300 9850 60  0000 C CNN
 F 1 "24AA01/24LC01B" H 5350 9050 60  0000 C CNN
-F 2 "" H 5150 9500 60  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 5150 9500 60  0001 C CNN
 F 3 "~" H 5150 9500 60  0000 C CNN
 	1    5150 9500
 	1    0    0    -1  
@@ -679,7 +679,7 @@ U 1 1 56EBC2B7
 P 3950 9000
 F 0 "R2" V 4030 9000 40  0000 C CNN
 F 1 "10K" V 3957 9001 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3880 9000 30  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3880 9000 30  0001 C CNN
 F 3 "~" H 3950 9000 30  0000 C CNN
 	1    3950 9000
 	-1   0    0    1   
@@ -690,7 +690,7 @@ U 1 1 56EBC2B8
 P 3750 9000
 F 0 "R1" V 3830 9000 40  0000 C CNN
 F 1 "10K" V 3757 9001 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3680 9000 30  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3680 9000 30  0001 C CNN
 F 3 "~" H 3750 9000 30  0000 C CNN
 	1    3750 9000
 	-1   0    0    1   
@@ -701,7 +701,7 @@ U 1 1 56EBC2B9
 P 6000 9900
 F 0 "C1" H 6000 10000 40  0000 L CNN
 F 1 "0.1uF" H 6006 9815 40  0000 L CNN
-F 2 "" H 6038 9750 30  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6038 9750 30  0001 C CNN
 F 3 "~" H 6000 9900 60  0000 C CNN
 	1    6000 9900
 	1    0    0    -1  
@@ -747,10 +747,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 10050 6000 10100
 $Comp
-L GND #PWR?
+L GND #PWR04
 U 1 1 56EBC6DB
 P 6000 9350
-F 0 "#PWR?" H 6000 9100 50  0001 C CNN
+F 0 "#PWR04" H 6000 9100 50  0001 C CNN
 F 1 "GND" H 6000 9200 50  0000 C CNN
 F 2 "" H 6000 9350 50  0000 C CNN
 F 3 "" H 6000 9350 50  0000 C CNN
