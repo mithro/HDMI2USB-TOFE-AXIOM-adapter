@@ -959,4 +959,8 @@ F 3 "" H 11440 6620 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	11440 6620 11340 6620
+Text Label 8490 3790 0    60   ~ 0
+VCC_3V3
+Text Label 8490 6910 0    60   ~ 0
+VCC_3V3
 $EndSCHEMATC
