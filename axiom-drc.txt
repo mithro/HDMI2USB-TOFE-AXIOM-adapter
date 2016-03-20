@@ -15,6 +15,7 @@ Nr Copper
 Setup: (1*2*15*16)
 
 ## Clearance
+
 Wire:Wire 6mil
 Everything else: 5mil
 
