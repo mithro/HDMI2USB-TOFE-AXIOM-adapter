@@ -1,0 +1,45 @@
+
+## Layers
+
+Nr Copper
+   Isolation
+
+1: 0.035559375mm
+ 0.17018125mm
+2: 01778125mm
+ 47mil
+15: 0.01778125mm
+ 0.17018125mm
+16: 0.035559375mm
+
+Setup: (1*2*15*16)
+
+## Clearance
+Wire:Wire 6mil
+Everything else: 5mil
+
+## Distance
+
+Copper/Dimension: 10mil
+Drill/Hole: 6mil
+
+## Sizes
+
+Min Width: 5mil
+Min Drill: 8mil
+Min Micro: 8mil
+Min Blind: 0.5
+
+## Restring
+
+Restring: min:4mil, 25%, max:20mil
+
+## Shapes
+
+Mask: stop: 2mil, 100%, 2mil
+Cream: 0mil, 0, 0mil
+
+## Misc
+
+Gap factor in diff pairs 1
+
