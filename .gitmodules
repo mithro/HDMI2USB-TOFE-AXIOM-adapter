@@ -4,4 +4,4 @@
 	branch = for-kicad-2013-07-07-BZR-4022
 [submodule "external/project-gus-length-matching"]
 	path = external/project-gus-length-matching
-	url = https://gist.github.com/6014a79cdc0fe859b3f2.git
+	url = https://github.com/mithro/project-gus-kicad-length-matching-checks.git
