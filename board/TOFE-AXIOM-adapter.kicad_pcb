@@ -199,7 +199,7 @@
     (add_net "Net-(TOFE1-PadA33)")
   )
 
-  (net_class IO_NORTH_LM0.1 ""
+  (net_class IO_NORTH_LM0.254 "North Low Speed I/O - Match to ~10mil"
     (clearance 0.1524)
     (trace_width 0.1524)
     (via_dia 0.3048)
@@ -218,7 +218,7 @@
     (add_net /N_SDA)
   )
 
-  (net_class IO_SOUTH_LM0.1 ""
+  (net_class IO_SOUTH_LM0.254 "South Low Speed I/O - Match to ~10mil"
     (clearance 0.1524)
     (trace_width 0.1524)
     (via_dia 0.3048)
@@ -237,7 +237,7 @@
     (add_net /S_SDA)
   )
 
-  (net_class LVDS_DP0.1/1.0 ""
+  (net_class LVDS_DP0.0635/0.254 "LVDS Diff Pairs - Match to 2.5mil pair, ~10 mil group"
     (clearance 0.1524)
     (trace_width 0.1524)
     (via_dia 0.3048)
