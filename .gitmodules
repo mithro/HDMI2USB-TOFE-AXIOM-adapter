@@ -2,3 +2,6 @@
 	path = external/HDMI2USB-TOFE-kicad-template
 	url = https://github.com/timvideos/HDMI2USB-TOFE-kicad-template.git
 	branch = for-kicad-2013-07-07-BZR-4022
+[submodule "external/project-gus-length-matching"]
+	path = external/project-gus-length-matching
+	url = https://gist.github.com/6014a79cdc0fe859b3f2.git
