@@ -1,0 +1,5 @@
+*.lib		text
+*.kicad_pcb	text ident
+*.pro		text
+*.sch		text ident
+*.sh		eol=lf
