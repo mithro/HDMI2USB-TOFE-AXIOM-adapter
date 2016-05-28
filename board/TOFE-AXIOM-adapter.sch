@@ -29,6 +29,9 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:TOFE-AXIOM-adapter-cache
+LIBS:TOFE
+LIBS:axiom
+LIBS:EEPROM
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -36,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "TOFE to apertus AXIOM Adapter"
 Date "4 nov 2015"
-Rev ""
+Rev "$Id$"
 Comp "TimVideos HDMI2USB Project"
 Comment1 "http://tofe.io"
 Comment2 "License : CC BY-SA"

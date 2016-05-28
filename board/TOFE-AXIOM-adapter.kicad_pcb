@@ -21,7 +21,7 @@
   )
 
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (1 In1.Cu signal hide)
     (2 In2.Cu signal hide)
     (31 B.Cu signal)
@@ -42,7 +42,7 @@
 
   (setup
     (last_trace_width 0.1524)
-    (user_trace_width 0.0254)
+    (user_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.2032)
     (user_trace_width 0.2286)
@@ -53,7 +53,7 @@
     (trace_clearance 0.1524)
     (zone_clearance 0.1524)
     (zone_45_only yes)
-    (trace_min 0.0254)
+    (trace_min 0.1524)
     (segment_width 0.2)
     (edge_width 0.381)
     (via_size 0.3048)
@@ -78,7 +78,7 @@
     (pad_drill 2.4003)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFF779F)
+    (visible_elements 7FFFF79F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions true)
