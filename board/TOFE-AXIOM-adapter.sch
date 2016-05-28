@@ -1088,17 +1088,17 @@ VCC12V
 Wire Wire Line
 	12610 2400 12300 2400
 Text Label 13410 2400 0    60   ~ 0
-VCC5V
+VCC5V0
 Wire Wire Line
 	13410 2400 13690 2400
 Text Label 15410 2400 0    60   ~ 0
-VCC5V
+VCC5V0
 Wire Wire Line
 	15410 2400 15690 2400
 Text Label 13000 3190 0    60   ~ 0
 VCC12V
 Text Label 14110 3200 0    60   ~ 0
-VCC5V
+VCC5V0
 Wire Wire Line
 	13000 3190 13460 3190
 Wire Wire Line
@@ -1218,5 +1218,5 @@ Connection ~ 13230 3540
 Wire Notes Line
 	15770 3030 12170 3030
 Text Notes 14730 3810 0    60   ~ 0
-Smoothing Capacitors\nPopulate for roughly;\n * >50uF on VCC12V\n * >10uF on VCC5V\n
+Smoothing Capacitors\nPopulate for roughly;\n * >50uF on VCC12V\n * >10uF on VCC5V0\n
 $EndSCHEMATC
