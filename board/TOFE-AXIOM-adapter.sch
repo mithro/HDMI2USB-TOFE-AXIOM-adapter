@@ -594,9 +594,9 @@ Connection ~ 9940 4720
 Wire Wire Line
 	8490 3690 9040 3690
 Text Label 8490 3690 0    60   ~ 0
-VCC_5V0
+VCC5V0
 Text Label 8490 2590 0    60   ~ 0
-VCC_3V3
+VCC3V3
 Wire Wire Line
 	10740 3390 10980 3390
 $Comp
@@ -910,9 +910,9 @@ Connection ~ 9940 7840
 Wire Wire Line
 	8490 6810 9040 6810
 Text Label 8490 6810 0    60   ~ 0
-VCC_5V0
+VCC5V0
 Text Label 8490 5710 0    60   ~ 0
-VCC_3V3
+VCC3V3
 Wire Wire Line
 	10740 6510 10980 6510
 $Comp
@@ -958,9 +958,9 @@ $EndComp
 Wire Wire Line
 	11440 6620 11340 6620
 Text Label 8490 3790 0    60   ~ 0
-VCC_3V3
+VCC3V3
 Text Label 8490 6910 0    60   ~ 0
-VCC_3V3
+VCC3V3
 $Comp
 L CONN_01X04 CI2CS1
 U 1 1 56EF47D9
