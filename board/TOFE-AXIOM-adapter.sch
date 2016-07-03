@@ -668,9 +668,9 @@ VCC3V3
 Text Label 4200 9500 0    60   ~ 12
 GND
 Text Label 4200 9300 0    60   ~ 12
-S_SCL
+SMCLK
 Text Label 4200 9700 0    60   ~ 12
-S_SDA
+SMDAT
 Text Notes 5050 9000 0    60   ~ 12
 EEPROM
 $Comp
@@ -711,9 +711,9 @@ GND
 Wire Wire Line
 	5850 9350 6000 9350
 Wire Wire Line
-	3950 9300 4450 9300
+	3430 9300 4450 9300
 Wire Wire Line
-	3750 9700 4450 9700
+	3430 9700 4450 9700
 Wire Wire Line
 	4450 9500 4200 9500
 Wire Notes Line
@@ -1219,4 +1219,10 @@ Wire Notes Line
 	15770 3030 12170 3030
 Text Notes 14730 3810 0    60   ~ 0
 Smoothing Capacitors\nPopulate for roughly;\n * >50uF on VCC12V\n * >10uF on VCC5V0\n
+Connection ~ 3950 9300
+Connection ~ 3750 9700
+Text Label 3430 9300 0    60   ~ 12
+SMCLK
+Text Label 3430 9700 0    60   ~ 12
+SMDAT
 $EndSCHEMATC
