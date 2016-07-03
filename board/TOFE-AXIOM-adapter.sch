@@ -709,7 +709,7 @@ Connection ~ 3800 7550
 Wire Wire Line
 	5600 2850 5700 2850
 Wire Wire Line
-	5700 2850 5700 8300
+	5700 8300 5700 2850
 Wire Wire Line
 	5700 4150 5600 4150
 Wire Wire Line
@@ -758,7 +758,7 @@ Wire Wire Line
 	5700 7750 5600 7750
 Connection ~ 5700 7450
 Wire Wire Line
-	5700 8300 3800 8300
+	3800 8300 5700 8300
 Connection ~ 3800 7750
 Connection ~ 5700 7750
 Wire Wire Line
@@ -945,7 +945,7 @@ Wire Wire Line
 Wire Wire Line
 	9040 3390 8490 3390
 Wire Wire Line
-	9040 3790 8490 3790
+	8490 3790 9040 3790
 Wire Wire Line
 	9040 4090 8490 4090
 Wire Wire Line
@@ -973,7 +973,7 @@ Wire Wire Line
 Wire Wire Line
 	10740 2390 10780 2390
 Wire Wire Line
-	10780 2390 10780 4720
+	10780 4720 10780 2390
 Wire Wire Line
 	10740 2690 10780 2690
 Connection ~ 10780 2690
@@ -992,12 +992,12 @@ Wire Wire Line
 	10740 3690 10780 3690
 Connection ~ 10780 3690
 Wire Wire Line
-	10780 4720 9010 4720
+	9010 4720 10780 4720
 Connection ~ 10780 4290
 Wire Wire Line
 	9040 4290 9010 4290
 Wire Wire Line
-	9010 4720 9010 3990
+	9010 3990 9010 4720
 Wire Wire Line
 	9010 3990 9040 3990
 Connection ~ 9010 4290
@@ -1078,7 +1078,7 @@ Wire Wire Line
 Wire Wire Line
 	9040 6510 8490 6510
 Wire Wire Line
-	9040 6910 8490 6910
+	8490 6910 9040 6910
 Wire Wire Line
 	9040 7210 8490 7210
 Wire Wire Line
@@ -1106,7 +1106,7 @@ Wire Wire Line
 Wire Wire Line
 	10740 5510 10780 5510
 Wire Wire Line
-	10780 5510 10780 7840
+	10780 7840 10780 5510
 Wire Wire Line
 	10740 5810 10780 5810
 Connection ~ 10780 5810
@@ -1125,12 +1125,12 @@ Wire Wire Line
 	10740 6810 10780 6810
 Connection ~ 10780 6810
 Wire Wire Line
-	10780 7840 9010 7840
+	9010 7840 10780 7840
 Connection ~ 10780 7410
 Wire Wire Line
 	9040 7410 9010 7410
 Wire Wire Line
-	9010 7840 9010 7110
+	9010 7110 9010 7840
 Wire Wire Line
 	9010 7110 9040 7110
 Connection ~ 9010 7410
@@ -1231,4 +1231,12 @@ Wire Wire Line
 	8900 3890 9040 3890
 Wire Wire Line
 	9040 7010 8900 7010
+Wire Wire Line
+	11330 3280 11360 3280
+Wire Wire Line
+	11330 6400 11360 6400
+Text Label 11360 6400 0    60   ~ 0
+VCC3V3
+Text Label 11360 3280 0    60   ~ 0
+VCC3V3
 $EndSCHEMATC
