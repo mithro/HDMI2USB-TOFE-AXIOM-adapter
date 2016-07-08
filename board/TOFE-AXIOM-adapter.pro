@@ -1,4 +1,4 @@
-update=Mon 21 Mar 2016 11:28:56 AM AEDT
+update=7/3/2016 7:54:06 PM
 version=1
 last_client=kicad
 [general]
@@ -45,16 +45,6 @@ LibName30=TOFE-AXIOM-adapter-cache
 LibName31=TOFE
 LibName32=axiom
 LibName33=EEPROM
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -74,3 +64,13 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.381
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
