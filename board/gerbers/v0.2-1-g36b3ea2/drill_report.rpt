@@ -1,0 +1,28 @@
+Drill report for TOFE-AXIOM-adapter.kicad_pcb
+Created on Mon Aug  1 22:56:21 2016
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    inner1
+    L3 :  In2.Cu                    inner2
+    L4 :  B.Cu                      back
+
+
+Drill file 'TOFE-AXIOM-adapter.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.25mm  0.010"  (119 holes)
+    T2  0.80mm  0.032"  (72 holes)
+    T3  1.02mm  0.040"  (8 holes)
+    T4  1.14mm  0.045"  (6 holes)
+
+    Total plated holes count 205
+
+
+Drill file 'TOFE-AXIOM-adapter-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.40mm  0.095"  (4 holes)
+
+    Total unplated holes count 4
