@@ -14,7 +14,7 @@ reverse is not necessarily true).
 For more information on;
  * [The TOFE interface, see the HDMI2USB website](http://hdmi2usb.tv/tofe).
  * [The AXIOM interface, see the AXIOM wiki](https://wiki.apertus.org/index.php/AXIOM_Beta)
- * KiCad software, see [KiCad website](http://kicad-pcb.org/).
+ * KiCad software, see [KiCad website](http://kicad.org/).
 
 ## Editing
 
@@ -23,9 +23,9 @@ Download with
 git clone git+ssh://git@github.com/mithro/HDMI2USB-TOFE-AXIOM-Adapter.git --recursive
 ```
 
-The designs in this repository was made using [KiCad](http://www.kicad-pcb.org/)
+The designs in this repository was made using [KiCad](http://www.kicad.org/)
 version **4.0.2 BZR 6225**
-([the current stable version of KiCad](http://kicad-pcb.org/download/)).
+([the current stable version of KiCad](http://kicad.org/download/)).
 
 ## License
 
